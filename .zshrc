@@ -1,5 +1,6 @@
 # Env
 export ZSH="$HOME/.oh-my-zsh"
+export DOTFILES="$HOME/.dotfiles"
 export PATH="$PATH:$HOME/.cargo/bin"
 export PATH="$PATH:$HOME/.local/bin"
 
