@@ -9,6 +9,8 @@ export ANDROID_HOME=~/Library/Android/sdk
 export ANDROID_SDK_HOME=~/Library/Android/sdk/
 export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
 
+export PYENV_ROOT=$HOME/.pyenv
+
 export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
 export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
 export PATH=$PATH:$ANDROID_HOME/emulator
@@ -16,12 +18,14 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
+export PATH=$PATH:$PYENV_ROOT/bin
+export PATH=$PATH:/usr/local/sbin
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$HOME/.cargo/bin
-export PATH="$PATH:$HOME/.rvm/bin"
-export PATH="/usr/local/sbin:$PATH"
+export PATH=$PATH:$HOME/.rvm/bin
 
 export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
+
 export VISUAL="lvim"
 export EDITOR="$VISUAL"
 export GIT_EDITOR="$VISUAL"
