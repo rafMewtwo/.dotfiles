@@ -74,7 +74,6 @@ export NVM_DIR="$HOME/.nvm"
 alias ls="exa --icons --classify --links --group-directories-first --git --oneline --all --long"
 alias l="ls"
 alias ll="ls"
-alias bat="batcat"
 alias vim="lvim"
 alias cd="z"
 
