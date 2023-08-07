@@ -6,4 +6,6 @@ lvim.keys.normal_mode["<S-l>"] = ":BufferLineCycleNext<CR>"
 lvim.keys.normal_mode["<S-h>"] = ":BufferLineCyclePrev<CR>"
 -- set CONTROL + t to open terminal
 lvim.keys.normal_mode["<C-t>"] = ":ToggleTerm<CR>"
+-- set CONTROL + s to save
+lvim.keys.normal_mode["<C-s>"] = ":w<CR>"
 

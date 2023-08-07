@@ -1,1 +1,7 @@
-lvim.builtin.telescope.defaults.file_ignore_patterns = { ".git", "node_modules" }
+return {
+  {
+    "folke/trouble.vim",
+    dependencies = { "nvim-tree/nvim-web-devicons" },
+    opts = {},
+  }
+}
