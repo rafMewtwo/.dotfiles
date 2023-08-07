@@ -1,6 +1,6 @@
-return {
+lvim.plugins = {
   {
-    "folke/trouble.vim",
+    "folke/trouble.nvim",
     dependencies = { "nvim-tree/nvim-web-devicons" },
     opts = {},
   }
